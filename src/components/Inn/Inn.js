@@ -9,8 +9,8 @@ class Inn extends React.Component{
     return(
         <>
           <ul>
-            <li className={style.inn}>name: {this.props.usernema.name}</li>
-            <li className={style.inn}>age: {this.props.usernema.age}</li>
+            <li className={style.info}>name: {this.props.usernema.name}</li>
+            <li className={style.info}>age: {this.props.usernema.age}</li>
           </ul>
         </>
     )
